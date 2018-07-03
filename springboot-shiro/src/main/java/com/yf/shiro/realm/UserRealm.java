@@ -44,7 +44,6 @@ public class UserRealm extends AuthorizingRealm {
             List<String> listRoles = rolesService.findByName(user.getName());
             sa.addStringPermissions(listRoles);
         }
-
         return sa;
     }
 
