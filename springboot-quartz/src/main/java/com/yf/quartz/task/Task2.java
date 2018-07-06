@@ -17,6 +17,6 @@ public class Task2 implements Job{
         count++;
         Date date = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println("我是第二个任务 : " + sdf.format(date)+"; count:"+count);
+        System.err.println("我是第二个任务 : " + sdf.format(date)+"; count:"+count);
     }
 }
