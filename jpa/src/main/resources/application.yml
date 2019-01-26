@@ -9,7 +9,6 @@ spring:
       ddl-auto: update
     show-sql: true
 
-
 server:
   port: 7777
 #     jpa.hibernate.ddl-auto是hibernate的配置属性，其主要作用是：自动创建、更新、验证数据库表结构。该参数的几种配置如下：
