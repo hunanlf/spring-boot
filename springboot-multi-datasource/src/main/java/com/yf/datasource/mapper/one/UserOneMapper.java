@@ -10,9 +10,9 @@ import org.apache.ibatis.annotations.Select;
 public interface UserOneMapper {
 
     @Select("select * from user_one where id = #{id}")
-    public UserOne getUserOne(int id);
+     UserOne getUserOne(int id);
 
     @Insert("insert into user_one(id,`name`) values(#{id},#{name})")
-    public int addUserOne(UserOne userOne);
+     int addUserOne(UserOne userOne);
 
 }
