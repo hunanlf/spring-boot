@@ -69,6 +69,7 @@ public class QuartzConfigration {
         bean.setOverwriteExistingJobs(true);
         // 延时启动，应用启动5秒后  ，定时器才开始启动
         bean.setStartupDelay(5);
+
         // 注册定时触发器
         bean.setTriggers(cronJobTrigger);
         return bean;
