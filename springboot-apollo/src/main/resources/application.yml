@@ -1,0 +1,11 @@
+# 项目port
+server:
+  port: 8185
+
+#  namespace 对应的id
+app:
+  id: apollo-demo1
+
+# set apollo meta server address, adjust to actual address if necessary
+apollo:
+  meta: http://127.0.0.1:8080
